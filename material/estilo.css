@@ -1,0 +1,11 @@
+h1 {
+	color: red;
+	background: green;
+}
+
+p{
+	color: red;
+	font-size: 30px;
+	border: groove 10px;
+	border-color: red blue green yellow;
+}

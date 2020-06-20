@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		
+		<title>Cor e imagens de fundo</title>
+		<meta charset="utf-8">
+		
+		<style type="text/css">
+			body{
+				/*background-color: #F5A9BC;*/
+				background: #81F79F url('imagens/yoshi.png');
+				/*no-repeat,repeat-x, repeat y, repeat x */
+				background-repeat: no-repeat; 
+				/*fixar imagens ou não: fixed e scroll*/
+				background-attachment: fixed;
+				/*Primeiro valor: center, right, left
+				Segundo valor: top, bottom, center*/
+				background-position: center center;
+			}
+
+			h1{
+				color:  #FBEFF2 ;
+				background: url('imagens/tijolo.jpg')
+			}
+
+			.fundo{
+				color: #610B21;
+				background-color: #FE2E64;
+			}
+
+		</style>
+	</head>
+
+
+	<body>
+		<h1>Lorem Ipsum</h1>
+
+		<p class="fundo">
+			Morbi pretium mauris at enim porttitor aliquet. Nam ut arcu imperdiet, commodo elit sed, viverra ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse scelerisque dolor non est laoreet tincidunt.
+		</p>
+	</body>
+
+</html>

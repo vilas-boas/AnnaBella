@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Div & Spam</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+
+			#topo {
+				background: green;
+			}
+
+			#conteudo {
+				background-color: pink;
+			}
+
+			.servicos {
+				background-color: gray;
+				margin: 10px:;
+			}
+
+			#rodape {
+				background-color: red;
+			}
+
+			#assinatura {
+				background-color: blue;
+			}
+
+			.azul {
+				color: blue;
+			}
+		</style>
+	</head>
+
+	<body>
+		<!-- o div vai ocupar toda a área da página, ele é tipo block -->
+		<div id="topo">
+			<img src="imagens/even.jpg" width="200">
+
+			<ul>
+				<li>Sobre nós</li>
+				<li>Serviços</li>
+				<li>Fale conosco</li>
+			</ul>
+		</div>
+
+		<div id="conteudo">
+			<div class="servicos">
+				<h2>Serviço 1</h2>
+				Donec tempus orci nisi, non bibendum eros sagittis nec. Mauris nec aliquet tellus. Etiam nec sodales ipsum, quis dapibus ex.
+			</div>
+
+			<div class="servicos">
+				<h2>Serviço 2</h2>
+				Mauris sit amet lorem venenatis, hendrerit diam a, convallis sapien. Duis sem arcu, posuere nec sem et, aliquam ultrices dui.
+			</div>
+
+			<div class="servicos">
+				<h2>Serviço 3</h2>
+				Quisque varius sodales varius. Pellentesque a scelerisque diam. Integer eu enim eu lorem efficitur lobortis.
+			</div>
+		</div>
+
+		<div id="rodape">
+			Todos os <span class="azul"> direitos </span> reservados.
+		</div>
+
+		<!-- o span não vai ocupar toda a área da página, ele é inline-->
+		<span id="assinatura">
+			Walace..
+		</span>
+	</body>
+</html>
